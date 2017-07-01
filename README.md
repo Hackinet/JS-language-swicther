@@ -11,10 +11,12 @@ Include the plugin script in your head tag.
 <script src="language.js" charset="utf-8" type="text/javascript"></script>
 ```
 Call the function based on the language's abbrevation(http://www.science.co.il/language/Codes.php)
-For example you want to convert to Finnish, call the function "fin();"
+For example you want to convert to Finnish, call the function "lang();"
 ```html
-<button Onclick="fin();">Click here to convert to Finnish</button>
+<button Onclick="lang();">Click here to convert to Finnish</button>
 ```
+- Spanish language pack is added, feel free to modify it or add your own language packs from http://speak7.com/
+- You can edit the .js file to add your own language pack. 
 # Contact
 Need help?
 - Skype: live:piyushjha8164_1
