@@ -1,5 +1,5 @@
 # JS-language-swicther
-Change your website's language without reloading page or without requesting the server. Thanks @laquasicinque !
+Change your website's language without reloading page or without requesting the server. Thanks [@laquasicinque](https://github.com/laquasicinque) !
 # Features
 - Change language wihout reloading the page.
 - Its Instant. Doesn't affects website.
