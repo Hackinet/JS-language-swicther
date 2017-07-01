@@ -2,7 +2,7 @@
 (function(){
   function lang() {
   console.log("LANG");
-            //ADD WORD HERE
+            //ADD WORDS THAT YOU WOULD LIKE TO REPLACE(CASE SENSITIVE)
   replaceTextOnPage('one', 'uno');
   replaceTextOnPage('two', 'dos');  
   replaceTextOnPage('three', 'tres'); 
