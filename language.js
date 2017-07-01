@@ -1,19 +1,25 @@
 
+(function(){
+  function lang() {
+  console.log("LANG");
+            //ADD WORD HERE
+  replaceTextOnPage('one', 'uno');
+  replaceTextOnPage('two', 'dos');  
+  replaceTextOnPage('three', 'tres'); 
+  replaceTextOnPage('four', 'las cuatro');   
+  replaceTextOnPage('five', 'cinco'); 
+  replaceTextOnPage('six', 'seis');
+  replaceTextOnPage('seven', 'siete');
+  replaceTextOnPage('eight', 'ocho');
+  replaceTextOnPage('nine', 'nueve');
+  replaceTextOnPage('ten', 'Ddiez');
+           
+}
 
-function lang() {
-replaceTextOnPage('one', 'uno');
-replaceTextOnPage('two', 'dos');	
-replaceTextOnPage('three', 'tres');	
-replaceTextOnPage('four', 'las cuatro');	 
-replaceTextOnPage('five', 'cinco');	
-replaceTextOnPage('six', 'seis');
-replaceTextOnPage('seven', 'siete');
-replaceTextOnPage('eight', 'ocho');
-replaceTextOnPage('nine', 'nueve');
-replaceTextOnPage('ten', 'Ddiez');
-}; 
-          
-
+document.getElementById('langBtn').addEventListener('click',function(e){
+  e.preventDefault()
+  lang();
+});
 
 
 
@@ -43,3 +49,4 @@ function replaceTextOnPage(from, to){
     return (str+'').replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
   }
 }
+})()
