@@ -15,8 +15,10 @@ For example you want to convert to Finnish, call the function "lang();"
 ```html
 <button Onclick="lang();">Click here to convert to Finnish</button>
 ```
+- Demo: https://hackinet.github.io/JS-language-swicther/ 
 - Spanish language pack is added, feel free to modify it or add your own language packs from http://speak7.com/
-- You can edit the .js file to add your own language pack. 
+- You can edit the .js file to add your own language pack.
+- To change to the original language, exchange the two parameters ```"from"``` & ```"to"``` in the language.js
 # Contact
 Need help?
 - Skype: live:piyushjha8164_1
