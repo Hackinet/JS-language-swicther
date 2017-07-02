@@ -10,8 +10,8 @@ Include the plugin script in your head tag.
 ```html
 <script src="language.js" charset="utf-8" type="text/javascript"></script>
 ```
-Call the function based on the language's abbrevation(http://www.science.co.il/language/Codes.php)
-For example you want to convert to Finnish, call the function "lang();"
+Call the function.
+For example you want to convert to Finnish(I named the function lang(); by default), call the function "lang();"
 ```html
 <button Onclick="lang();">Click here to convert to Finnish</button>
 ```
